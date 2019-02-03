@@ -6,7 +6,7 @@ while True:
 	
 	
 	
-	def heart_of_it():
+	def calc():
 		message = "\nWhat kind of problem do you need solved?"
 		message_1 = "\n Addition\n Subtraction\n Multiplication\n Exponent\n Division\nor type 'exit' when you are done."
 		problem = input(message + message_1 + '\n<<<').lower()
@@ -84,5 +84,5 @@ while True:
 				cont = input("Please enter either 'y' or 'n'.").lower()
 	
 	
-	heart_of_it()
+	calc()
 	
